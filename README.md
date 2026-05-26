@@ -42,7 +42,7 @@ Variant-7 	Вариант 7 — Воронцова Ю.О.
     Клонировать репозиторий:
 https://github.com/52678vasya-jpg/Laba3/tree/main
 
-    Открыть MovingAverageLab.sln в Visual Studio 2022
+    Открыть InflationAnalyzer2007.sln в Visual Studio 2022
     Убедиться что установлен .NET 8
     Запустить через F5 или Debug → Start
 
