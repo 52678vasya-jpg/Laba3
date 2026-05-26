@@ -1,0 +1,77 @@
+[
+  {
+    "Year": 2010,
+    "Inflation": 8.8,
+    "ApartmentPrice": 2500000
+  },
+  {
+    "Year": 2011,
+    "Inflation": 6.1,
+    "ApartmentPrice": 2700000
+  },
+  {
+    "Year": 2012,
+    "Inflation": 6.6,
+    "ApartmentPrice": 2900000
+  },
+  {
+    "Year": 2013,
+    "Inflation": 6.5,
+    "ApartmentPrice": 3100000
+  },
+  {
+    "Year": 2014,
+    "Inflation": 11.4,
+    "ApartmentPrice": 3500000
+  },
+  {
+    "Year": 2015,
+    "Inflation": 12.9,
+    "ApartmentPrice": 3900000
+  },
+  {
+    "Year": 2016,
+    "Inflation": 5.4,
+    "ApartmentPrice": 4200000
+  },
+  {
+    "Year": 2017,
+    "Inflation": 2.5,
+    "ApartmentPrice": 4400000
+  },
+  {
+    "Year": 2018,
+    "Inflation": 4.3,
+    "ApartmentPrice": 4700000
+  },
+  {
+    "Year": 2019,
+    "Inflation": 3.0,
+    "ApartmentPrice": 5000000
+  },
+  {
+    "Year": 2020,
+    "Inflation": 4.9,
+    "ApartmentPrice": 5500000
+  },
+  {
+    "Year": 2021,
+    "Inflation": 8.4,
+    "ApartmentPrice": 6500000
+  },
+  {
+    "Year": 2022,
+    "Inflation": 11.9,
+    "ApartmentPrice": 8000000
+  },
+  {
+    "Year": 2023,
+    "Inflation": 7.4,
+    "ApartmentPrice": 9200000
+  },
+  {
+    "Year": 2024,
+    "Inflation": 7.0,
+    "ApartmentPrice": 10000000
+  }
+]

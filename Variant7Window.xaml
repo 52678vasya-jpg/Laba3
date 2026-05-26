@@ -1,0 +1,34 @@
+<<<<<<< Updated upstream
+﻿<Window x:Class="Lab3_VCS.Variant7Window"
+=======
+﻿<Window x:Class="InflationAnalyzer.Variant7Window"
+>>>>>>> Stashed changes
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        Title="Статистика браков и разводов (Вариант 7)" Height="650" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="Открыть JSON" Width="100" Click="LoadData_Click"/>
+            <Label Content="Период скользящей средней (n):" Margin="10,0,0,0"/>
+            <TextBox x:Name="TxtPeriod" Width="40" Text="3" VerticalContentAlignment="Center"/>
+            <Label Content="Горизонт прогноза:" Margin="10,0,0,0"/>
+            <TextBox x:Name="TxtHorizon" Width="40" Text="3" VerticalContentAlignment="Center"/>
+            <Button Content="Построить прогноз" Margin="10,0,0,0" Width="120" Click="Predict_Click"/>
+            <Button Content="Экспорт графика" Margin="10,0,0,0" Width="120" Click="Export_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="DataGridStats" Grid.Row="1" AutoGenerateColumns="True" IsReadOnly="True" Margin="0,0,0,10"/>
+
+        <oxy:PlotView x:Name="PlotGraph" Grid.Row="2" Model="{Binding PlotModel}" Margin="0,0,0,10"/>
+
+        <TextBlock x:Name="TxtAnalysis" Grid.Row="3" TextWrapping="Wrap" FontWeight="Bold"/>
+    </Grid>
+</Window>
