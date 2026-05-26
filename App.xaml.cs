@@ -1,14 +1,15 @@
-﻿using System.Configuration;
-using System.Data;
 using System.Windows;
 
-namespace Lab3_VCS
+namespace UnifiedApp
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            // Здесь мы создаем общее окно-меню (Dashboard)
+            // которое должно быть у вас в проекте
+            var mainMenu = new MainDashboardWindow(); 
+            mainMenu.Show();
+        }
     }
-
 }

@@ -1,24 +1,45 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
-namespace _4343343
+namespace InflationAnalyzer
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        // Вариант 1
+        private void Variant1Button_Click(
+            object sender,
+            RoutedEventArgs e)
+        {
+            InflationWindow window =
+                new InflationWindow();
+
+            window.Show();
+        }
+
+        // Вариант 2
+        private void Variant2Button_Click(
+            object sender,
+            RoutedEventArgs e)
+        {
+            Variant2Window window =
+                new Variant2Window();
+
+            window.Show();
+        }
+
+        // Вариант 3
+        private void Variant3Button_Click(
+            object sender,
+            RoutedEventArgs e)
+        {
+            Variant3Window window =
+                new Variant3Window();
+
+            window.Show();
         }
     }
 }
