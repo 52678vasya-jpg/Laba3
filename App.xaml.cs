@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace _4343343
+namespace PopulationApp
 {
     /// <summary>
     /// Interaction logic for App.xaml
