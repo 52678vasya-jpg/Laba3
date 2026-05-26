@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace _4343343
+namespace Lab3_VCS
 {
     /// <summary>
     /// Interaction logic for App.xaml
