@@ -3,7 +3,11 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 
+<<<<<<< Updated upstream
 namespace Lab3_VCS
+=======
+namespace InflationAnalyzer
+>>>>>>> Stashed changes
 {
     public class JsonDataProcessor : IDataProcessor
     {

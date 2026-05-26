@@ -9,7 +9,7 @@ namespace InflationAnalyzer
             InitializeComponent();
         }
 
-        // Вариант 1
+        // 10 вариант
         private void Variant1Button_Click(
             object sender,
             RoutedEventArgs e)
@@ -20,24 +20,24 @@ namespace InflationAnalyzer
             window.Show();
         }
 
-        // Вариант 2
+        // 5 вариант(товарища)
         private void Variant2Button_Click(
             object sender,
             RoutedEventArgs e)
         {
-            Variant2Window window =
-                new Variant2Window();
+            Variant5Window window =
+                new Variant5Window();
 
             window.Show();
         }
 
-        // Вариант 3
+        // 7 вариант(товарища)
         private void Variant3Button_Click(
             object sender,
             RoutedEventArgs e)
         {
-            Variant3Window window =
-                new Variant3Window();
+            Variant7Window window =
+                new Variant7Window();
 
             window.Show();
         }

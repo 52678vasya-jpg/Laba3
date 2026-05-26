@@ -1,7 +1,11 @@
 ﻿using System.Windows;
 using Microsoft.Win32;
 
+<<<<<<< Updated upstream
 namespace Lab3_VCS
+=======
+namespace InflationAnalyzer
+>>>>>>> Stashed changes
 {
     public partial class Variant7Window : Window
     {

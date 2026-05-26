@@ -1,7 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
+<<<<<<< Updated upstream
 namespace Lab3_VCS
+=======
+namespace InflationAnalyzer
+>>>>>>> Stashed changes
 {
     public class MovingAverageForecaster : IForecastingService
     {

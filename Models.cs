@@ -1,6 +1,10 @@
 ﻿using System.Collections.Generic;
 
+<<<<<<< Updated upstream
 namespace Lab3_VCS
+=======
+namespace InflationAnalyzer
+>>>>>>> Stashed changes
 {
     // Модель данных за один год
     public class DemographicData

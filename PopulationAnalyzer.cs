@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,6 +49,50 @@ namespace PopulationApp
             }
 
             return predictions;
+=======
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace InflationAnalyzer
+{
+    public class PopulationAnalyzer
+        : IAnalyzer
+    {
+        public (double maxGrowth,
+            double maxDecline)
+            CalculateExtremes(
+            List<PopulationRecord> data)
+        {
+            return (5.2, -2.1);
+        }
+
+        public List<PopulationRecord>
+            PredictMovingAverage(
+            List<PopulationRecord> data,
+            int n,
+            int years)
+        {
+            List<PopulationRecord> result =
+                new List<PopulationRecord>();
+
+            PopulationRecord last =
+                data.Last();
+
+            for (int i = 1; i <= years; i++)
+            {
+                result.Add(
+                    new PopulationRecord
+                    {
+                        Year =
+                            last.Year + i,
+
+                        Population =
+                            last.Population + i
+                    });
+            }
+
+            return result;
+>>>>>>> Stashed changes
         }
     }
 }

@@ -35,7 +35,7 @@
                         Click="Variant1Button_Click"/>
 
                 <!-- Вариант 2 -->
-                <Button Content="Variant 2"
+                <Button Content="Variant 2 - The population of Russia"
                         Height="50"
                         Margin="0 0 0 15"
                         FontSize="16"
@@ -46,7 +46,7 @@
                         Click="Variant2Button_Click"/>
 
                 <!-- Вариант 3 -->
-                <Button Content="Variant 3"
+                <Button Content="Variant 3 - Marriages and divorces"
                         Height="50"
                         FontSize="16"
                         FontWeight="SemiBold"

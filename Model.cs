@@ -1,6 +1,10 @@
 ﻿using System;
 
+<<<<<<< Updated upstream
 namespace PopulationApp
+=======
+namespace InflationAnalyzer
+>>>>>>> Stashed changes
 {
     public class PopulationRecord
     {

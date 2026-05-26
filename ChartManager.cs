@@ -7,7 +7,11 @@ using System.IO;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
+<<<<<<< Updated upstream
 namespace Lab3_VCS
+=======
+namespace InflationAnalyzer
+>>>>>>> Stashed changes
 {
     public class ChartManager : INotifyPropertyChanged
     {
