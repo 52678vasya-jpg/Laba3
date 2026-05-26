@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace _4343343
+namespace InflationAnalyzer2007
 {
     /// <summary>
     /// Interaction logic for App.xaml
