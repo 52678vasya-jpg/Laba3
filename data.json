@@ -1,0 +1,92 @@
+[
+  {
+    "Year": 2009,
+    "Marriages": 1199000,
+    "Divorces": 699000,
+    "PeakMarriageAgeMen": 25,
+    "PeakDivorceAgeMen": 33,
+    "PeakMarriageAgeWomen": 23,
+    "PeakDivorceAgeWomen": 30
+  },
+  {
+    "Year": 2010,
+    "Marriages": 1215000,
+    "Divorces": 639000,
+    "PeakMarriageAgeMen": 26,
+    "PeakDivorceAgeMen": 34,
+    "PeakMarriageAgeWomen": 24,
+    "PeakDivorceAgeWomen": 31
+  },
+  {
+    "Year": 2011,
+    "Marriages": 1220000,
+    "Divorces": 645000,
+    "PeakMarriageAgeMen": 26,
+    "PeakDivorceAgeMen": 34,
+    "PeakMarriageAgeWomen": 24,
+    "PeakDivorceAgeWomen": 31
+  },
+  {
+    "Year": 2012,
+    "Marriages": 1160000,
+    "Divorces": 620000,
+    "PeakMarriageAgeMen": 27,
+    "PeakDivorceAgeMen": 35,
+    "PeakMarriageAgeWomen": 25,
+    "PeakDivorceAgeWomen": 32
+  },
+  {
+    "Year": 2013,
+    "Marriages": 1100000,
+    "Divorces": 643000,
+    "PeakMarriageAgeMen": 27,
+    "PeakDivorceAgeMen": 35,
+    "PeakMarriageAgeWomen": 25,
+    "PeakDivorceAgeWomen": 32
+  },
+  {
+    "Year": 2014,
+    "Marriages": 1120000,
+    "Divorces": 610000,
+    "PeakMarriageAgeMen": 28,
+    "PeakDivorceAgeMen": 36,
+    "PeakMarriageAgeWomen": 26,
+    "PeakDivorceAgeWomen": 33
+  },
+  {
+    "Year": 2015,
+    "Marriages": 1005000,
+    "Divorces": 598000,
+    "PeakMarriageAgeMen": 28,
+    "PeakDivorceAgeMen": 36,
+    "PeakMarriageAgeWomen": 26,
+    "PeakDivorceAgeWomen": 33
+  },
+  {
+    "Year": 2016,
+    "Marriages": 968000,
+    "Divorces": 604000,
+    "PeakMarriageAgeMen": 29,
+    "PeakDivorceAgeMen": 37,
+    "PeakMarriageAgeWomen": 27,
+    "PeakDivorceAgeWomen": 34
+  },
+  {
+    "Year": 2017,
+    "Marriages": 1020000,
+    "Divorces": 597000,
+    "PeakMarriageAgeMen": 29,
+    "PeakDivorceAgeMen": 37,
+    "PeakMarriageAgeWomen": 27,
+    "PeakDivorceAgeWomen": 34
+  },
+  {
+    "Year": 2018,
+    "Marriages": 967000,
+    "Divorces": 567000,
+    "PeakMarriageAgeMen": 29,
+    "PeakDivorceAgeMen": 38,
+    "PeakMarriageAgeWomen": 27,
+    "PeakDivorceAgeWomen": 35
+  }
+]
