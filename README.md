@@ -40,8 +40,7 @@ Variant-7 	Вариант 7 — Воронцова Ю.О.
 Как запустить
 
     Клонировать репозиторий:
-
-git clone https://github.com/leaveyourlive/ProgrammingTechnologiesLab3.git
+https://github.com/52678vasya-jpg/Laba3/tree/main
 
     Открыть MovingAverageLab.sln в Visual Studio 2022
     Убедиться что установлен .NET 8
